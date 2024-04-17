@@ -1,0 +1,258 @@
+/* Navigation Bar */
+.navbar {
+    background-color: #f8f9fa; 
+    border-bottom: 1px solid #ddd; 
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold; 
+    color: #333; 
+    text-shadow: 2px 4px 4px rgba(0,0,0,0.5)
+  }
+  
+  .navbar-toggler {
+    border: none; 
+  }
+  
+  .nav-link {
+    color: #333; 
+  }
+  
+  .nav-link:hover {
+    color: #007bff; 
+  }
+  
+  .dropdown-menu {
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    display: none;
+  }
+  
+  .dropdown-item {
+    color: #333; 
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f8f9fa; 
+  }
+  
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block; 
+  }
+  
+body {
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-image: repeating-linear-gradient(to bottom, #ffffff, #28c24c 750px);
+    /**background-image: repeating-linear-gradient(to bottom, #ffffff, #2686ad 750px);**/
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    margin-top:5%;
+    margin-bottom: 20%;
+}
+
+.title h1 {
+    font-size : 500%;
+    margin-right: 50px;
+    margin-left:20px;
+    border-bottom: 7px solid #9b0891c7;
+    padding-bottom: 10px;
+}
+
+.title img{
+    width: 40%;
+    height: 40%;
+    max-width:600px;
+    margin-right: 5%;
+}
+
+.Financials h1{
+  text-shadow: 0px 3px 2px rgba(0,0,0,0.5);
+}
+
+.Financials .card-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 120px;
+    margin-top: 75px;
+  }
+  
+.card {
+    flex: 0 0 calc(25% - 10px);
+    margin: 0 30px 20px;
+    box-shadow: 0 15px 12px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.EPS {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+.EPS h1{
+  text-shadow: 0px 1px 2px rgba(0,0,0,0.5);
+}
+  
+.text {
+    flex: 1;
+    padding-right: 20px;
+}
+  
+.EPS h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+.EPS-P {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-right:10%;
+    margin-left:10%;
+}
+  
+.epsChart {
+    width: 50%;
+    max-width: 600px;
+    height: auto;
+  }
+
+.EPS img{
+  box-shadow: 0 15px 15px rgba(0,0,0,0.3);
+}
+
+
+.Roa-Roe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    margin-top:13%;
+}
+
+.Roa-Roe h1{
+  text-shadow: 0px 1px 2px rgba(0,0,0,0.5);
+}
+  
+.Roa-Roe .roa-text {
+    flex: 1;
+    margin-right: 3%;
+}
+  
+.Roa-Roe h1 {
+    color: #333;
+    font-size: 150%;
+    margin-bottom: 5%;
+}
+  
+.Roa-Roe h3 {
+    color: #141516;
+    font-size: 110%;
+    margin-top: 5%;
+    text-decoration: underline;
+}
+  
+.Roa-Roe p {
+    color: #1b1a1a;
+    font-size: 100%;
+    line-height: 1.5;
+}
+  
+.Roa-Roe p strong {
+    font-weight: bold;
+    color: #171616;
+}
+  
+.Roa-Roe img.roa-roe {
+  max-width: 100%;
+  border-radius: 1%;
+  margin-right:5%;
+  box-shadow: 0 15px 15px rgba(0,0,0,0.7);
+  
+}
+  
+
+.wrapper {
+  display:flex;
+}
+
+.liquidity-comparative {
+  margin-top: 12%;
+}
+
+.liquidity {
+  flex:1;
+  margin-right:3%;
+  margin-left:2%;
+}
+
+.liquidity h1{
+  text-shadow: 0px 3px 2px rgba(0,0,0,0.5);
+}
+
+.liquidity img{
+  box-shadow: 0 10px 12px rgba(0,0,0,0.3);
+}
+
+.comparative {
+  flex:1;
+  margin-right:3%;
+  margin-bottom:10%;
+}
+
+.comparative h1{
+  text-shadow: 0px 3px 2px rgba(0,0,0,0.5);
+}
+
+ul {
+  list-style-type:none;
+  padding:0;
+}
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top:auto;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }

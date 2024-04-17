@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Microsoft's SWOT analysis</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">  <!-- Link to Bootstrap CSS -->
+  <link rel="stylesheet" href="swotstyle.css"> 
+  <script src="swot.js"></script>
+
+  
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">Investing in Microsoft</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              
+              <li>
+                <a class="nav-link" href="homepage.html">Back to Homepage</a>
+              <li>
+                <a class="nav-link" href="financial.html">Financial Analysis</a>
+              </li>
+              <li>
+                <a class="nav-link" href="future.html">Future Goals</a>
+              </li>
+              <li class="nav-item dropdown" id="dropdownContact">
+                <a class="nav-link" href="contactus.html" id="contactUsLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Contact Us
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownContact">
+                    <a class="dropdown-item" href="contact-by-phone.html">By Phone Number</a>
+                    <a class="dropdown-item" href="contact-by-email.html">By Email</a>
+                </div>
+            </li>
+              
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <section class="title">
+        <h1> SWOT Analysis</h1>
+    </section>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <img class="strengthSymbol" src="strengthSymbol.png" alt="strength symbol">
+                        <button class="card-button" onclick="scrollToSection('strength')">Strengths</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <img class="weaknessSymbol" src="weaknessSymbol.jpg" alt="weakness symbol">
+                        <button class="card-button" onclick="scrollToSection('weaknesses')">Weaknesses</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <img class="opportunitySymbol" src="opportunitySymbol.png" alt="opportunity symbol">
+                        <button class="card-button" onclick="scrollToSection('opportunities')">Opportunities</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <img class="threatSymbol" src="threatSymbol.png" alt="threat symbol">
+                        <button class="card-button" onclick="scrollToSection('threats')">Threats</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function scrollToSection(sectionId) {
+            var section = document.getElementById(sectionId);
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+
+
+    <section class="Swot">
+        <section id="strength" class="strength">
+            <div class="title">
+                <h1> Strengths</h1>
+            </div>
+            <div class="strengthText">
+                <div class="quadrant">
+                    <h3>Very Diverse product portfolio</h3>
+                    <p class="diverseP">Diverse range of products and services which includes Window operating systems, Xbox gaming, LinkedIn, and Azure cloud. This provides resilience and multiple revenue streams</p>
+                </div>
+                <div class="quadrant">
+                    <h3> Market Dominance</h3>
+                    <p class="marketP">One of the biggest technology brands globally, its products and services are widely used in homes, businesses, and educational institutions.</p>
+                </div>
+                <div class="quadrant">
+                    <h3>Strong Financial Performance</h3>
+                    <p class="finP">Microsoft consistently delivers strong financial results, with steady revenue growth and profitability.</p>
+                </div>
+                <div class="quadrant">
+                    <h3>Strategic acquisitions</h3>
+                    <p class="strategicP">Microsoft have made great acquisitions to expand its offerings, notable acquisitions include LinkedIn, GitHub, and Skype.</p>
+                </div> 
+                
+            </div>
+            <div class="none">
+                <h3>Cloud computing</h3>
+                <p class="cloudP">Azure is one of the leading cloud platforms, competing closely with Amazon Web Services. Its investment in cloud infrastructure and services have driven significant growth.</p>
+            </div>
+        </section>
+            
+        <section id="weaknesses" class="weaknesses">
+            <div class="content-wrapper">
+                <div class="weaknesstext" id="weaknesses">
+                    <h1><strong>Weaknesses</strong></h1>
+                    <ul>
+                        <li>
+                            <strong>Dependency on Windows</strong>
+                        </li>
+                        <p>Heavily dependent on Windows operating system for a significant portion of its revenue. Declining PC sales and competition from alternatives pose a risk to this dependency.
+                        </p>
+                        <li>
+                            <strong>Competition in Cloud Services</strong>
+                        </li>
+                        <p>
+                            Faces stiff competition from AWS and Google Cloud Platform. Maintaining market share requires continued innovation and investment.
+                        </p>
+                        <li>
+                            <strong>Privacy and Security concerns</strong>
+                        </li>
+                        <p>Microsoft software, particularly Windows operating systems, has been historically been susceptible to security breaches and vulnerabilities.</p>
+                        <li>
+                            <strong>Mobile Market Presence</strong>
+                        </li>
+                        <p>Microsoft's mobile presence remains limited, especially due to not having a robust app ecosystem.</p>
+                    </ul>
+                </div>
+                <img class="weaknessGraph" src="weaknessGraph.png" alt="Weakness Graph">
+            </div>
+        </section>
+
+        <section id="opportunities" class="opportunities">
+            <div class="opportText">
+                <div class="text-content">
+                    <h1><strong>Opportunity</strong></h1>
+                    <p><strong>Microsoft has been investing heavily in AI research and development. There are numerous opportunity for Microsoft to integrate AI technologies across its product portfolio, including improving productivity tools, improving customer services, and enabling new capabilities in areas such as healthcare, finance, and manufacturing.
+                    </strong>
+                    </p>
+                </div>
+                <img class="microsoftAi" src="microsoftAi.jpg" alt="Microsoft Ai">
+            </div>
+        </section>
+        <section id="threats" class="threats">
+            <h1><strong>Threats</strong></h1>
+            <h3>Competition from Tech Giants</h3>
+            <p>Companies like Google, Apple, Amazon have vast resources and compete with Microsoft across multiple product categories, including cloud computing, productivity software, and operating systems.</p> 
+            <h3>Cybersecurity Threats</h3>
+            <p>Threats such as malware, ransomware, and data breaches pose significant rishs to microsft's reputation, customer trust, and financial stability.
+            </p>
+            <h3>Intellectual Property infringement</h3>
+            <p>
+                Microsft's intellectual property, including patents, trademarks, and copyrights, are vulnerable to infringement by competitors, counterfeiters, and unauthorized distributors.
+            </p>
+
+        </section>
+    </section>
+
+    
+
+</body>
+<footer>
+    <div class="footer">
+      <p>&copy; 2024 Shahadat Anadil. All rights reserved.</p>
+      <a href="?">Terms of Services.</a>
+    </div>
+</footer>

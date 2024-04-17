@@ -1,0 +1,110 @@
+/* Navigation Bar */
+.navbar {
+    background-color: #f8f9fa; 
+    border-bottom: 1px solid #ddd; 
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold; 
+    color: #333; 
+    text-shadow: 2px 4px 4px rgba(0,0,0,0.5)
+  }
+  
+  .navbar-toggler {
+    border: none; 
+  }
+  
+  .nav-link {
+    color: #333; 
+  }
+  
+  .nav-link:hover {
+    color: #007bff; 
+  }
+  
+  .dropdown-menu {
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    display: none;
+  }
+  
+  .dropdown-item {
+    color: #333; 
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f8f9fa; 
+  }
+  
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block; 
+  }
+
+
+
+body {
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-image: repeating-linear-gradient(to bottom, #ffffff, #cfa72e 750px);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.title {
+    margin-top: 7%;
+}
+.title h1 {
+    font-size: 600%; 
+    text-shadow: 2px 4px 4px rgba(0,0,0,0.5);
+    border-bottom:7px solid #300994c7;
+    padding-bottom:1%;
+    text-align:center;
+    margin-right:20%;
+    margin-left:20%;
+    margin-bottom:3%;
+}
+
+.FutureSymbol {
+    width: 600px; 
+    height: auto; 
+}
+
+.card {
+    border: 1px solid #e2e2e2;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20%;
+    max-width: 400px; 
+}
+
+.card-body {
+    padding: 15px; 
+}
+
+.card-title {
+    font-size: 20px; 
+    color: #333;
+    margin-bottom: 10px; 
+}
+
+.card-text {
+    font-size: 14px; 
+    color: #666;
+}
+
+.futureAspirations {
+    margin-top:25%;
+}
+
+.healthcare {
+    width:100%;
+    max-width:500px;
+    height:100%;
+    max-height:500px;
+}

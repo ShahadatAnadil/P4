@@ -1,0 +1,257 @@
+/* Navigation Bar */
+.navbar {
+    background-color: #f8f9fa; 
+    border-bottom: 1px solid #ddd; 
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold; 
+    color: #333; 
+    text-shadow: 2px 4px 4px rgba(0,0,0,0.5)
+  }
+  
+  .navbar-toggler {
+    border: none; 
+  }
+  
+  .nav-link {
+    color: #333; 
+  }
+  
+  .nav-link:hover {
+    color: #007bff; 
+  }
+  
+  .dropdown-menu {
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    display: none;
+  }
+  
+  .dropdown-item {
+    color: #333; 
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f8f9fa; 
+  }
+  
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block; 
+  }
+
+
+
+body {
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-image: repeating-linear-gradient(to bottom, #ffffff, #2596bf 750px);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    min-height: 100vh;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+    margin-top:2%;
+    margin-bottom: 5%;
+}
+
+.title h1 {
+    font-size : 600%;
+    border-bottom:7px solid #300994c7;
+    padding-bottom:1%;
+    text-align:center;
+    margin:0;
+    text-shadow: 2px 4px 4px rgba(0,0,0,0.5);
+}
+
+.card {
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+}
+
+
+.card-button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background-color: #3f8282;
+    color: rgb(249, 242, 242);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Added color transition */
+}
+
+.card-button:hover {
+    background-color: #5e6062;
+}
+
+.strengthSymbol {
+    width:100%;
+    height:200px;
+}
+
+.weaknessSymbol{
+    width:100%;
+    height:200px;
+}
+
+.threatSymbol {
+    width:100%;
+    height:200px;;
+    border-radius:5px;
+}
+
+.Swot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+    margin-bottom:20%;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.weaknesses img {
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+}
+
+.opportunities img {
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+
+}
+
+.strengthText {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distributes space between quadrants */
+    align-items: flex-start;
+    width: 100%; /* Adjust as needed */
+}
+
+.quadrant {
+    width: calc(48% - 10px);
+    margin-left: 10px; 
+}
+
+
+.diverseP{
+    margin-left:20%;
+    margin-right:20%;
+}
+
+.finP {
+    margin-left:20%;
+    margin-right:20%;
+}
+
+.marketP {
+    margin-left:20%;
+    margin-right:20%;
+}
+
+.strategicP {
+    margin-left:20%;
+    margin-right:20%;
+}
+
+.cloudP {
+    margin-left:20%;
+    margin-right:20%;
+}
+
+.Swot h1 {
+    text-shadow: 2px 4px 4px rgba(0,0,0,0.5);
+    border-bottom:none;
+}
+
+.Swot h3{
+    text-decoration: underline;
+}
+
+.weaknesses {
+    margin-top:25%;
+    text-align: center; /* Center-align content */
+}
+
+.weaknesstext h1 {
+    width:100%;
+    max-width:500px;
+}
+.content-wrapper {
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Space elements evenly */
+    align-items: center; /* Center-align vertically */
+    max-width: 900px; /* Adjust max-width as needed */
+    margin: 0 auto; /* Center the content horizontally */
+}
+
+.weaknesstext {
+    flex: 1; /* Expand to fill available space */
+    margin-right: 10%;
+
+}
+
+.weaknessGraph {
+    flex: 1; 
+    max-width: 450px; 
+}
+
+.opportunities{
+    margin-top:20%;
+}
+.opportText {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center-align items vertically */
+}
+
+.text-content {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.microsoftAi {
+    width:50%;
+    max-width: 800px; 
+   margin-right: 10%;
+}
+
+
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top:auto;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+
+  .threats {
+    margin-right: 20%;
+    margin-left:20%;
+    margin-top: 30%
+  }
